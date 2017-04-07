@@ -4,5 +4,5 @@ Maintainer Xijin Xiao (http://github.com/xiaoxijin/)
 USER root
 ADD entrypoint.sh $WORK_DIR
 EXPOSE 9566 9576
-ENTRYPOINT ${WORK_DIR}entrypoint.sh
+#ENTRYPOINT ${WORK_DIR}entrypoint.sh
 CMD ["product"]
